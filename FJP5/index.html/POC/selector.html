@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          /* uNIVERSAL SELECTOR */
+
+          *{
+              background-color: black;
+          }
+        /* element selector  */
+div {
+    color: seagreen;
+    font-family: inherit;
+    font-size: 20px;
+}
+    
+    /* class selector */
+.textclour{
+
+    color: red;
+}
+.textsize{
+
+    font-size: 30px;
+}
+
+.textclour.textsize{
+    font-family: cursive;
+}
+
+/* ID SELECTOTR */
+#new{
+    color: blue;
+}
+/* GROUPING SELELCTOR */
+
+h2,p1,h3{
+    color:lightpink;
+}
+
+   /* combinator selector */
+
+       /* DESCENDENT SELECTOR   */
+   div p span{
+       color:chocolate;
+   }
+
+/* CHILDREN SELECTOR */
+   div>p>span{
+       color: indigo;
+   }
+
+
+   /* ATTRIBUTE SELECTOR */
+
+ a[href="www.facebook.com"]{
+     color: magenta;
+ }
+
+
+
+</style>
+</head>
+<body>
+           <!-- element selector  -->
+     <div>
+         <h1>ELEMENT SELECTOR</h1>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, iusto placeat. Enim molestiae rem deleniti, nobis deserunt nemo nihil nam, fugit dicta asperiores placeat voluptates necessitatibus. Atque molestias laborum commodi.
+
+    </p>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi labore eos laudantium ad id rem, tenetur error incidunt reprehenderit! Itaque tempore omnis, illum consequuntur adipisci architecto explicabo aliquid. Magni, neque!
+
+    </p>
+    </div>
+
+
+    <!-- class selector -->
+
+
+        <H1 style="color: green;">CLASS SELECTOR</H1>
+    <p class="textclour textsize">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, consequatur amet velit deleniti atque possimus in aliquam asperiores officia, impedit repellat expedita a ut optio quidem dignissimos illum cum autem?
+
+    </p>
+
+    <p style="color: green;" class="textsize">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit aut consectetur unde consequuntur deserunt laudantium, dolorem eaque nihil porro soluta exercitationem quibusdam reiciendis labore nulla, obcaecati, laborum optio maiores? Non.
+
+    </p>
+
+    <p class="textclour">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam necessitatibus facilis ut voluptas incidunt numquam! Dicta dolorem totam assumenda nam, magnam numquam, sunt sint neque ipsam hic explicabo nobis deleniti.
+
+    </p>
+
+    <!-- ID SELECTOR -->
+
+    <HI style="color: green; font-size: 30px;">ID SELECTOR</HI>
+
+    <p id="new">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum error libero pariatur porro vitae, hic nemo nihil blanditiis dicta cupiditate itaque fugit maxime tempora odio minima tenetur quos aperiam assumenda?
+
+    </p>
+       <p style="color: green;">
+           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla alias aperiam consectetur unde est nostrum debitis magnam facere quas! Fugiat mollitia aliquam quia officia beatae eaque quibusdam nemo corrupti nam?
+
+       </p> 
+
+       <!-- Grouping Selector -->
+
+
+       <h style="color: green; font-size: 30px;">GROUPING SELECTOR</h>
+
+       <h2>KAISE HO</h2>
+
+       <p1>NARDOS</p1>
+
+       <h3>NEW HO HTML MAI</h3>
+
+
+
+       <!-- COMBINATOR SELECTOR -->
+
+              
+       <h style="color: cornsilk;font-size: 30px;">COMBINATOR SELECTOR</h>
+
+
+       <h2 style="color: darkgreen;">1. CHILD SELECTOR</h2>
+
+       <div>
+           <p>
+               <span>i am a child</span>
+           </p>
+       </div>
+       <h2 style="color: darkgreen;">2. DESCENDANT SELECTOR</h2>
+          <div>
+              <span>
+                  <p>
+                      <span>i am a descendant</span>
+                  </p>
+              </span>
+          </div>
+
+
+          <!-- ATTRIBUTE SELECTOR -->
+           
+
+
+          <h1 style="color: green;">ATTRIBUTES SELECTOR
+          </h1>
+
+          <a href="www.facebook.com" target="_blank">google</a>
+
+
+</body>
+    
+</body>
+</html>
